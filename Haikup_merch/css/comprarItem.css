@@ -1,0 +1,113 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: lato;}
+body{width: 100%;}
+/* Cabecalho da pagina */
+.menu{
+ background-color:#161616;   
+height: 3.5vw;
+display: flex;
+align-items: center;
+}
+.menuItems{
+    display: flex;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuItems img{
+    height: 2.2vw;
+    width: auto;
+}
+.icon_menu{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size:1.5vw ;
+    color: white;
+}
+a{
+    color:white
+   }
+
+/* Cabecalho da pagina */
+
+/* ----------------------------------------------------------------------------------- */
+
+/* Corpo da pagina */
+#nome{
+    color:white;
+    font-size: 1.5vw;
+}
+h1{
+    text-align: center;
+    margin-top: 1vw;
+}
+.main{
+    border-top: solid #161616 0.3vw;
+    width: 85%;
+    margin: 1vw auto;
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+}
+.imagemConteudo{
+    width: 50%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagemConteudo img{
+    height: 80%;
+    width: auto;
+    margin-right:1vw;
+    margin-left: auto;
+}
+.conteudo{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.conteudo label{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+.formulario{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.formulario label{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+.tamanhos{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    width:35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#inputSubmeter{
+    padding:0.3vw 2vw;
+    background-color:#161616;
+    color:white;
+    border:solid white 0.3vw;
+    border-radius: 1vw;
+
+}
+#inputSubmeter:hover{
+    padding:0.3vw 2vw;
+    background-color:white;
+    color:#161616;
+    border:solid #161616 0.3vw;
+    border-radius: 1vw;
+
+}
+
+/* Corpo da pagina */
